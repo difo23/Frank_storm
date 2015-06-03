@@ -1,0 +1,39 @@
+{
+  "name": "node-storm",
+  "version": "0.0.1",
+  "description": "Node.js multilang protocol implementation for Storm",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RallySoftware/node-storm.git"
+  },
+  "keywords": [
+    "storm",
+    "multilang"
+  ],
+  "author": "Michael Dellanoce <michael.dellanoce@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RallySoftware/node-storm/issues"
+  },
+  "homepage": "https://github.com/RallySoftware/node-storm",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.5",
+    "lodash": "^2.4.1",
+    "node-uuid": "~1.4.1",
+    "node-zookeeper-client": "^0.2.1",
+    "q": "~1.0.1",
+    "thrift": "~0.9.1",
+    "wrench": "~1.5.8"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.1.0",
+    "mocha": "~1.21.3",
+    "should": "~4.0.4",
+    "sinon": "~1.10.3"
+  }
+}
